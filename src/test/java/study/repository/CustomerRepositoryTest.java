@@ -17,8 +17,8 @@ public class CustomerRepositoryTest {
 	
 	@Test
 	public void test() {
-		Customer customer1 = customerRepository.getCustomerById(1);
-		Customer customer2 = customerRepository.getCustomerById(2);
+		Customer customer1 = customerRepository.findOne(1L);
+		Customer customer2 = customerRepository.findOne(2L);
 		System.out.println(customer1);
 		System.out.println(customer2);
 	}
