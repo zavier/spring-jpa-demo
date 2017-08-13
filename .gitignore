@@ -1,0 +1,17 @@
+*.class
+
+# Maven #
+target/
+
+# IDEA #
+.idea/
+*.iml
+
+# Eclipse #
+.settings/
+.metadata/
+.classpath
+.project
+.springBeans
+.springWebflow
+Servers/
